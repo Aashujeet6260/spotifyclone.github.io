@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 'Spotify - Web Player: Music for everyone'</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="./utility.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+
+        <div class="left rounded ">
+            <div class="close">
+                <img src="./assets/close.svg" alt="close_svg">
+            </div>
+            <div class="home bg-grey rounded m-1  ">
+                <div class="logo">
+                    <img id="spoitfy-logo" class="invert" src="./assets/logo.svg" alt="logo">
+                </div>
+                <ul>
+                    <li class="font"><img class="invert" src="./assets/home.svg" alt="home">Home</li>
+                    <li class="font"><img class="invert" src="./assets/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1">
+                <div class="heading">
+                    <img class="invert" src="./assets/library.svg" alt="Library">
+
+                    <h2 class="font">
+                        Your library
+                    </h2>
+                </div>
+                <div id="List">
+                    <ul>
+
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <div class="footer-left">
+                <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                </div>
+                <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="flex">
+
+                    <div class="hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M4 4.5L20 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M4 14.5L20 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M4 9.5L20 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M4 19.5L20 19.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+
+
+                    <div class="nav">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="buttons">
+
+                    <button id="signup-button">Sign Up</button>
+                    <button id="login-button">Log in</button>
+                </div>
+
+
+            </div>
+            <div class="spotifyplaylist">
+                <h2>Spotify Playlist</h2>
+                <div class="card-container">
+                    <!-- -------------------------------------------------------                       -->
+                    <div class="card">
+                        <div class="playlogo">
+                            <svg width="40" height="40" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50" fill="#00FF00" />
+                                <polygon points="50,20 80,50 50,80" fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="./assets/op.jpg" alt="One Piece Card Image" />
+                        <h1>One Piece Hits</h1>
+
+
+                    </div>
+                    <!-- --------------------------------------- -->
+                    <div class="card">
+                        <div class="playlogo">
+                            <svg width="40" height="40" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50" fill="#00FF00" />
+                                <polygon points="50,20 80,50 50,80" fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="./assets/jjk.jpg" alt="One Piece Card Image" />
+                        <h1>JJK Hits</h1>
+
+
+                    </div>
+                    <!-- ------------------------------------------------ -->
+
+                    <div class="card">
+                        <div class="playlogo">
+                            <svg width="40" height="40" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50" fill="#00FF00" />
+                                <polygon points="50,20 80,50 50,80" fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="./assets/aot.jpg" alt="One Piece Card Image" />
+                        <h1>AOT Hits</h1>
+
+
+                    </div>
+
+
+                    <!-- ------------------------------------------------ -->
+
+                    <div class="card">
+                        <div class="playlogo">
+                            <svg width="40" height="40" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50" fill="#00FF00" />
+                                <polygon points="50,20 80,50 50,80" fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="./assets/2pac.jpg" alt="One Piece Card Image" />
+                        <h1>2Pac Hits</h1>
+
+
+                    </div>
+
+                    <!-- ------------------------------------------------ -->
+
+
+
+                    <!-- ------------------------------------------------ -->
+
+                    <div class="card">
+                        <div class="playlogo">
+                            <svg width="40" height="40" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50" fill="#00FF00" />
+                                <polygon points="50,20 80,50 50,80" fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="./assets/2pac.jpg" alt="One Piece Card Image" />
+                        <h1>2Pac Hits</h1>
+
+
+                    </div>
+
+                    <!-- ------------------------------------------------ -->
+
+
+
+
+
+                </div>
+
+            </div>
+            <div class="playbutton">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+
+                <div class="abovebar">
+
+                    <div class="song-info"></div>
+                    <div class="songbutton">
+                        <img id="previous" src="./assets/previous.svg" alt="">
+                        <img id="play" src="./assets/play.svg" alt="">
+                        <img id="next" src="./assets/nextsong.svg" alt="">
+                    </div>
+
+                    <div class="time_volume">
+
+                        <div class="songtime"></div>
+                        <div class="volume">
+                            <img src="./assets/volume.svg" alt="volumebutton" srcset="">
+                            <div class="range">
+                                <input type="range" name="" id="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+
+
+    <div class="footer-main">
+        <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+        <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+        <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+        </div>
+        <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+        <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+        <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+    </div>
+</body>
+
+</html>
