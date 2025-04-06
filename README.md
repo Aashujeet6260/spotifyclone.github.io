@@ -83,3 +83,7 @@ Example of a clickable song card:
 ## Conclusion
 
 This project serves as a testament to my front-end development skills and my ability to recreate intricate user interfaces using fundamental web technologies. It illustrates how effective design and functionality can be achieved with a minimal tech stack. I invite you to explore the code and experience how I brought the essence of Spotify to life in this clone!
+
+
+
+![p2](https://github.com/user-attachments/assets/29e47c1e-ad3b-4f69-bb4c-a8d8ddc54005)
